@@ -104,8 +104,20 @@ th,td{
     border: 2px solid black;
     padding: 6px;
 }
-
 #summary{
-    font-family: 'Times New Roman', Times, serif;
-    
+    font-family: 'Times New Roman', Times, serif; 
+}
+/*Cambiar de color a los enlaces ak pasar el ratón por encima*/
+a:hover{
+    color: whitesmoke;
+}
+/*Cambiar de color de fondo a los botones*/
+#borrar:hover{
+    background-color: red;
+}
+#enviar:hover{
+    background-color: greenyellow;
+}
+#cv:hover{
+    background-color: yellow;
 }
