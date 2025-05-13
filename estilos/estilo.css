@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(3, 226, 255);
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom:700px;
+    font-size: 25px;
+    color: black;
+}
+h1,p{
+    text-align: center;
+}
+p{
+    font-size: 25px;
+    text-align: left;
+}
+p,a{
+    color: black;
+}
+legend{
+    margin-left: 158px;
+    
+}
+input{
+    display: inline-block;
+    width: 800x;
+}
+fieldset{
+    border-radius: 12px;
+    padding-left: 400px;
+    padding-bottom: 40px;
+    border-color: black;
+    
+}
+#nombre{
+    border-radius: 8px;
+}
+#apellidos{
+    border-radius: 8px;
+}
+#dni{
+    border-radius: 8px;
+}
+#correo{
+    border-radius: 8px;
+}
+#fecha_dia{
+    border-radius: 8px;
+}
+#fecha_mes{
+    border-radius: 8px;
+}
+#fecha_ano{
+    border-radius: 8px;
+}
+#hombre{
+    width: 25px;
+    height: 20px;
+}
+#mujer{
+    width: 25px;
+    height: 20px;
+}
+#otro{
+    width: 25px;
+    height: 20px;
+}
+#provincia{
+    border-radius: 8px;
+    padding: 4px;
+}
+#so{
+    border-radius: 8px;
+}
+#info{
+    border-radius: 8px;
+}
+#cv{
+    border-radius: 8px;
+    padding: 8px;
+}
+#borrar{
+    border-radius: 8px;
+    padding: 6px;
+}
+#enviar{
+    border-radius: 8px;
+    padding: 6px;
+}
+#inicio{
+    text-transform: uppercase;
+    text-align: center; 
+}
+#componentes,img{
+    text-align: center;
+}
+#informatica,p{
+    text-align: center;
+}
+table{
+    border-collapse:collapse;
+}
+th,td{
+    border: 2px solid black;
+    padding: 6px;
+}
+#summary{
+    font-family: 'Times New Roman', Times, serif; 
+}
+/*Cambiar de color a los enlaces ak pasar el ratón por encima*/
+a:hover{
+    color: whitesmoke;
+}
+/*Cambiar de color de fondo a los botones*/
+#borrar:hover{
+    background-color: red;
+}
+#enviar:hover{
+    background-color: greenyellow;
+}
+#cv:hover{
+    background-color: yellow;
+}
