@@ -3,8 +3,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
     <head>
         <title>Formulario</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <link href="../estilos/estilo.css"" rel="stylesheet"  type="text/css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link href="../estilos/estilo.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <h1>Formulario</h1>
@@ -21,8 +21,8 @@
                 <input type="text" name="correo" value="" id="correo" size="50"/><br/><br/>
                 Fecha de nacimiento:<br/><br/>
                 <label for="fecha_dia">D&iacute;a</label>&nbsp;
-                <input type="text" size="3" maxlength="2" id="fecha_dia" name="fecha_dia"/>&nbsp;
-                de&nbsp;
+                <input type="text" size="3" maxlength="2" id="fecha_dia" name="fecha_dia" value=""/>&nbsp;
+                <label for="fecha_mes">de</label>&nbsp;
                 <select id="fecha_mes" name="fecha_mes">
                 <option value="1">Enero</option>
                 <option value="2">Febrero</option>
@@ -38,13 +38,16 @@
                 <option value="12">Diciembre</option>
                 </select>
                 &nbsp;&nbsp;<label for="fecha_ano">de</label>&nbsp;
-                <input type="text" size="5" maxlength="4" id="fecha_ano" name="fecha_ano"/>
+                <input type="text" size="5" maxlength="4" id="fecha_ano" name="fecha_ano" value=""/>
                 <br/><br/>
                 Sexo:<br/><br/>
-                <input type="radio" name="sexo" value="hombre" checked="checked" id="hombre"/> Mujer &nbsp;
-                <input type="radio" name="sexo" value="hombre" checked="checked" id="mujer"/> Hombre&nbsp;
-                <input type="radio" name="sexo" value="hombre" checked="checked" id="otro"/> Otro &nbsp; <br/> <br/>
-                 <label for="provincia">Provincia</label> <br/> <br/>
+                <label for ="mujer">Mujer</label>
+                <input type="radio" name="sexo" value="" checked="checked" id="mujer"/>
+                <label for ="hombre">Hombre</label>
+                <input type="radio" name="sexo" value="" checked="checked" id="hombre"/>&nbsp;
+                <label for ="otro">Otro</label>
+                <input type="radio" name="sexo" value="" checked="checked" id="otro"/>&nbsp; <br/><br/>
+                 <label for="provincia">Provincia</label> <br/><br/>
 				<select id="provincia" name="provincia">
 					<optgroup label="Galicia">
 					<option value="Po" selected="selected">Pontevedra</option>
@@ -56,7 +59,7 @@
 			</fieldset><br/><br/>
 			<fieldset>
             <legend>OTROS DATOS</legend><br/>
-            <label for="so">Sistema operativo</label> <br/> <br/>
+            <label for="so">Sistema operativo</label><br/> <br/>
             <select id="so" name="so" multiple="multiple">
                 <optgroup label="Sistemas Operativos">
                 <option value="Windows" selected="selected">Windows</option>
@@ -67,7 +70,8 @@
 			</select><br/><br/>
 		<label for="info">Comentario de inter&eacute;s</label><br/><br/>
 		<textarea name="info" id="info" cols="50" rows="5"></textarea><br/><br/>
-		Adjuntar CV &nbsp;<input type="file" name="cv" id="cv"/><br/><br/>
+        <label for="cv">Adjuntar CV</label>
+		<input type="file" name="cv" id="cv"/><br/><br/>
 		<input type="reset" name="borrar" value="Borrar" id="borrar"/>&nbsp;&nbsp;
 		<input type="submit" name="enviar" value="Enviar" id="enviar"/>
     </fieldset>

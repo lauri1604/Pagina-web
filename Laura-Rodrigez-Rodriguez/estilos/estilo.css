@@ -77,15 +77,15 @@ fieldset{
 }
 #cv{
     border-radius: 8px;
-    padding: 4px;
+    padding: 8px;
 }
 #borrar{
     border-radius: 8px;
-    padding: 4px;
+    padding: 6px;
 }
 #enviar{
     border-radius: 8px;
-    padding: 4px;
+    padding: 6px;
 }
 #inicio{
     text-transform: uppercase;
